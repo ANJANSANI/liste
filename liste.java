@@ -32,7 +32,7 @@ class Lista {
         }
         this.elementi++;
     }
-    // inserimento ordnato in modo alfabetico'
+    // inserimento ordnato in modo alfabetico
     public void inserisciInOrdine(String info) {
         if (head == null || precede(info, head.getInfo())) {
             inserisciInTesta(info);
